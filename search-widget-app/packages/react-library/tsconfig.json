@@ -1,0 +1,25 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "./dist",
+    "lib": ["dom", "es2015"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "target": "es2015",
+    "skipLibCheck": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "declarationDir": "./dist/types",
+    "baseUrl": ".",
+    "paths": {
+      "stencil-library/*": ["../../stencil-library/dist/*"],
+      "@stencil/react-output-target/runtime": [
+        "../node_modules/@stencil/react-output-target/dist/react"
+      ]
+    }
+  },
+  "include": ["src/*"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "lib": ["dom", "es2017"],
+    "paths": {
+      "stencil-library": ["../../stencil-library"],
+      "stencil-library/*": ["../../stencil-library/*"]
+    },
+    "target": "es2017",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "jsx": "react",
+    "jsxFactory": "h"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
