@@ -1,6 +1,6 @@
 {
-  "name": "stencil-testing-public",
-  "version": "0.0.4",
+  "name": "react-library",
+  "version": "0.1.1",
   "description": "",
   "author": "",
   "homepage": "",
@@ -11,12 +11,15 @@
   "directories": {
     "src": "src"
   },
-  "private": false,
   "files": [
     "dist"
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arkajitCN/repofortest.git"
   },
   "scripts": {
     "test": "node ./__tests__/react-library.test.js",

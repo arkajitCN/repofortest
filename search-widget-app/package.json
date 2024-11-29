@@ -6,8 +6,12 @@
   ],
   "scripts": {
     "watch": "lerna run watch --stream",
-    "build": "lerna run build --concurrency=4",
-    "dev": "lerna run dev:start --stream"
+    "build": "lerna run build --stream --concurrency=4",
+    "dev": "lerna run dev:start --stream",
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean --yes && rm -rf node_modules",
+    "publish": "lerna publish from-package",
+    "prepare": "lerna run build"
   },
   "devDependencies": {
     "@types/node": "^22.9.1",
