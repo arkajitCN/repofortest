@@ -2,6 +2,10 @@
   "name": "stencil-library",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "types": "dist/types/index.d.ts",
@@ -49,5 +53,5 @@
     "puppeteer": "^21.9.0"
   },
   "license": "MIT",
-  "gitHead": "d85b7a92405696347a15de0117db479117c380a6"
+  "gitHead": "1802804c7abe99c4b592fe2f8a1746c5a72fb93c"
 }

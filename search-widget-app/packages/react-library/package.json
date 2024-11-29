@@ -14,6 +14,7 @@
   "files": [
     "dist"
   ],
+  "private": false,
   "publishConfig": {
     "access": "public"
   },
@@ -36,5 +37,5 @@
     "@stencil/react-output-target": "^0.7.4",
     "stencil-library": "*"
   },
-  "gitHead": "d85b7a92405696347a15de0117db479117c380a6"
+  "gitHead": "1802804c7abe99c4b592fe2f8a1746c5a72fb93c"
 }
