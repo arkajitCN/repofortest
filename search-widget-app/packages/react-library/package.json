@@ -35,5 +35,6 @@
   "dependencies": {
     "@stencil/react-output-target": "^0.7.4",
     "stencil-library": "*"
-  }
+  },
+  "gitHead": "d85b7a92405696347a15de0117db479117c380a6"
 }

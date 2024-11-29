@@ -1,6 +1,9 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "stencilapp",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "workspaces": [
     "packages/*"
   ],
