@@ -1,5 +1,5 @@
 {
-  "name": "stencilapp",
+  "name": "lernaapp",
   "private": false,
   "publishConfig": {
     "access": "public"
